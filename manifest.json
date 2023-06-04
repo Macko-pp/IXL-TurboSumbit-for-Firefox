@@ -2,11 +2,18 @@
 
 	"name": "TurboSubmit for IXL",
 	"description": "Introducing 'IXL TurboSubmit' - the time-saving extension that automates answer submissions on IXL assignments, helping you meet time requirements efficiently. Simply right-click anywhere on the page and select 'answer ~6 questions' to activate the extension. To stop TurboSubmit, simply refresh the page. Maximize your productivity with TurboSubmit and breeze through your IXL assignments like never before.",
-	"homepage_url": "https://github.com/Macko-pp/IXL-TurboSumbit-for-Firefox",
+	"homepage_url": "https://addons.mozilla.org/en-US/firefox/addon/turbosubmit-for-ixl/",
 	"manifest_version": 2,
 	"version": "1.0",
 	"icons": {
 		"48": "icons/ixlCheat-500.png"
+	},
+
+	"browser_action": {
+  		"default_icon": {
+    		"32": "icons/ixlCheat-32.png"
+  		},
+  		"default_title": "TurboSubmit"
 	},
 
 	"background": {
